@@ -7,7 +7,7 @@ export default defineConfig({
   // base: "/", // always ends with slash
   cleanUrls: true,
   head: [
-    ["link", { rel: "icon", href: "https://" }],
+    ["link", { rel: "icon", href: "https://play-lh.googleusercontent.com/lKul9YKVt5iCq0FchXmZUDaIQuyYxUq5DUO1Ttp_k4ND7Ox4kRENUHlluvzIWIT9PhEgZlWAvAIfIpHaSZl3PrQ" }],
   ],
   lastUpdated: true,
   themeConfig: {
