@@ -2,12 +2,12 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Vitepress 模板",
-  description: "一个 VitePress 站点",
+  title: "坦克世界闪击战：百科",
+  description: "由中文社区协作构建的《坦克世界闪击战》百科全书。",
   // base: "/", // always ends with slash
   cleanUrls: true,
   head: [
-    ["link", { rel: "icon", href: "https://icons.siiway.org/siiway/icon.svg" }],
+    ["link", { rel: "icon", href: "https://" }],
   ],
   lastUpdated: true,
   themeConfig: {
@@ -21,7 +21,7 @@ export default defineConfig({
           text: "示例文档",
           items: [
             { text: "Markdown 示例", link: "/markdown-examples" },
-            { text: "API 示例", link: "/api-examples" },
+            { text: "关于 | 共同完善", link: "/关于" },
           ],
         },
         { text: "外链示例", link: "https://not-exist.wss.moe/outlink-zh" },
@@ -31,8 +31,8 @@ export default defineConfig({
         {
           text: "Example docs",
           items: [
-            { text: "Markdown Examples", link: "/en_us/markdown-examples" },
-            { text: "API Examples", link: "/en_us/api-examples" },
+            { text: "Markdown Examples", link: "/en_us/md" },
+            { text: "About | Contribute", link: "/en_us/about" },
           ],
         },
         { text: "Outlink Test", link: "https://not-exist.wss.moe/outlink-en" },
@@ -40,13 +40,12 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-      { icon: "qq", link: "https://not-exist.wss.moe/qq" },
-      { icon: "discord", link: "https://not-exist.wss.moe/discord" },
+      { icon: "github", link: "https://github.com/WorldOfTanksBlitz/Wiki/edit/main/" },
+      { icon: "discord", link: "https://discord.gg/8WVUvqPrrk" },
     ],
 
     editLink: {
-      pattern: "https://github.com/wyf9/vitepress-template/edit/main/:path",
+      pattern: "https://github.com/WorldOfTanksBlitz/Wiki/edit/main/:path",
       text: "在 GitHub 上编辑本页",
     },
 
@@ -69,19 +68,19 @@ export default defineConfig({
       lang: "en",
       link: "/en_us/",
 
-      title: "Vitepress Template",
-      description: "A VitePress Site",
+      title: "World Of Tanks Blitz Wiki",
+      description: "A World of Tanks Blitz encyclopedia built by the Chinese community.",
 
       themeConfig: {
         nav: [{ text: "Home", link: "/en_us/" }],
 
         socialLinks: [
-          { icon: "github", link: "https://github.com/vuejs/vitepress" },
-          { icon: "discord", link: "https://not-exist.wss.moe/discord" },
+          { icon: "github", link: "https://github.com/WorldOfTanksBlitz/Wiki/" },
+          { icon: "discord", link: "https://discord.gg/8WVUvqPrrk" },
         ],
 
         editLink: {
-          pattern: "https://github.com/wyf9/vitepress-template/edit/main/:path",
+          pattern: "https://github.com/WorldOfTanksBlitz/Wiki/edit/main/:path",
           text: "Edit this page on GitHub",
         },
 
