@@ -20,6 +20,7 @@ export default defineConfig({
         {
           text: "快速导航",
           items: [
+            { text: "开始", link: "/start.md"},
             { text: "关于", link: "/about.md" },
             { text: "参与贡献", link: "/participate-and-contribute.md" },
           ],
