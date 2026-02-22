@@ -62,7 +62,8 @@ export default defineConfig({
     root: {
       label: "简体中文",
       lang: "zh",
-    },
+    }
+},
 //   en_us: {
 //     label: "English",
 //     lang: "en",
@@ -91,7 +92,8 @@ export default defineConfig({
 //          },
 //        },
 //      },
-//    },
+    
+//},
 //  },
   markdown: {
     image: {
